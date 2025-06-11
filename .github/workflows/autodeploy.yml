@@ -8,6 +8,7 @@ on:
       - '.github/**'
       - '.vscode/**'
       - 'README.md'
+      - 'schema.sql'
 
 jobs:
   build-deploy:
