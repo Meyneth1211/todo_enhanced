@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ユーザー登録</title>
 </head>
+<link rel="stylesheet" href="shinkitouroku.css">
 <body>
+    <div class="body2">
     <h1>ユーザー登録</h1>
     <form action="login.php" method="post">
         <label>ユーザー名:
@@ -18,7 +20,7 @@
 
         <button type="submit">登録</button>
     </form>
-
+    </div>
     <p><a href="login.php" style="color: purple;">ログインはこちら</a></p>
 </body>
 </html>
