@@ -95,21 +95,22 @@ $pdo = null;
                     }
                     echo '<td>' . htmlspecialchars($row['task']) . '</td>';
                     echo '<td>' . htmlspecialchars($row['due_date']) . '</td>';
-                    if ($row['priority'] === '1') {
+                    if ($row['priority'] === 1) {
                         echo '<td>低</td>';
-                    }elseif ($row['priority'] === '2') {
+                    }elseif ($row['priority'] === 2) {
                         echo '<td>中</td>';
-                    }elseif ($row['priority'] === '3') {
+                    }elseif ($row['priority'] === 3) {
                         echo '<td>高</td>';
                     }
                     echo '<td>';
                     echo '<a href="task_edit.php?taskid=' . htmlspecialchars($row['id']) . '">編集</a>';
-                    echo '<form action="" method="get">';
+                    echo '<a href="task_delete.php?taskid=' . htmlspecialchars($row['id']) . '">削除</a>';
+                    /* echo '<form action="" method="get">';
                     echo    '<input type="submit" value="編集">';
                     echo '</form>';
                     echo '<form action="" method="post" onsubmit="return confirm(\'本当に削除しますか？\');">';
                     echo    '<input type="hidden" name="taskid" value="' . htmlspecialchars($row['id']) . '">';
-                    echo '<input type="submit" value="削除">';
+                    echo '<input type="submit" value="削除">'; */
                     echo '</td>';
                     echo '</tr>';
                 }
