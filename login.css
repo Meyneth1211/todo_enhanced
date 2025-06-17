@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+   background-color: black;
+   color:pink;
+   text-shadow: 0 0 10px #fff, 0 0 0px #fff, 0 0 0px #ff5722, 0 0 0px #ff5722, 0 0 10px #ff5722,0 0 10px #ff5722, 0 0 20px #ff5722; 
+  
+}
+a{
+    color:whitesmoke
+    
+}
+
+.font{
+  text-shadow: 0 0 10px #fff, 0 0 0px #fff, 0 0 0px #ff5722, 0 0 0px #ff5722, 0 0 10px #ff5722,0 0 10px #ff5722, 0 0 20px #ff5722; 
+  margin : 30px ;
+   font-size: 20px;
+}
+
+h1{
+  text-shadow: 0 0 10px #fff, 0 0 0px #fff, 0 0 0px #ff5722, 0 0 0px #ff5722, 0 0 10px #ff5722,0 0 10px #ff5722, 0 0 20px #ff5722; 
+}
+input{
+    margin : 30px ;
+    font-size: 20px;
+}
+button{
+    color: rgb(166, 85, 85);
+     margin : 30px ;
+      font-size: 20px;
+        text-shadow: 0 0 10px #fff, 0 0 0px #fff, 0 0 0px #ff5722, 0 0 0px #ff5722, 0 0 10px #ff5722,0 0 10px #ff5722, 0 0 20px #ff5722; 
+
+}
