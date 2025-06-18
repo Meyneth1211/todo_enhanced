@@ -1,4 +1,5 @@
 <?php require_once 'session.php'; ?>
+<?php if($_SERVER['REQUEST_METHOD'] === 'GET'): ?> <!-- 121行目まで -->
 <h1>ToDoリスト</h1>
 <div class="user_info">
     <?php
@@ -118,3 +119,27 @@ $pdo = null;
         </tbody>
     </table>
 </div>
+<?php endif; ?>
+
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // タスク追加処理
+    if (!empty($_POST['task']) && !empty($_POST['due_date']) && !empty($_POST['priority'])) {
+        $task = htmlspecialchars($_POST['task']);
+        $due_date = htmlspecialchars($_POST['due_date']);
+        $priority = htmlspecialchars($_POST['priority']);
+
+        $pdo = getDB();
+        $sql = 'INSERT INTO todos (user_id, task, status, due_date, priority) VALUES (?, ?, ?, ?, ?)';
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute([$_SESSION['userid'], $task, 'todo', $due_date, $priority]);
+        $pdo = null;
+
+        header('Location: todolist.php');
+        exit();
+    } else {
+        echo '<h2>タスク内容、期限、優先度を入力してください。</h2>';
+        echo '<a href="todolist.php">リストへ戻る</a>';
+    }
+}
+?>
