@@ -105,7 +105,7 @@ $pdo = null;
                     }
                     echo '<td>';
                     echo '<a href="task_edit.php?taskid=' . htmlspecialchars($row['id']) . '">編集</a>';
-                    echo '<a href="task_delete.php?taskid=' . htmlspecialchars($row['id']) . '">削除</a>';
+                    echo ' <a href="task_delete.php?taskid=' . htmlspecialchars($row['id']) . '">削除</a>';
                     /* echo '<form action="" method="get">';
                     echo    '<input type="submit" value="編集">';
                     echo '</form>';
