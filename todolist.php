@@ -128,7 +128,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $task = htmlspecialchars($_POST['task']);
         $due_date = htmlspecialchars($_POST['due_date']);
         $priority = htmlspecialchars($_POST['priority']);
-
+        require_once 'DB.php';
         $pdo = getDB();
         $sql = 'INSERT INTO todos (user_id, task, status, due_date, priority) VALUES (?, ?, ?, ?, ?)';
         $stmt = $pdo->prepare($sql);
