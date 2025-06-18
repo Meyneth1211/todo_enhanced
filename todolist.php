@@ -120,7 +120,6 @@ $pdo = null;
     </table>
 </div>
 <?php endif; ?>
-
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // タスク追加処理
