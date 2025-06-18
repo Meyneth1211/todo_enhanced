@@ -7,20 +7,17 @@
 </head>
 <link rel="stylesheet" href="shinkitouroku.css">
 <body>
-    <div class="body2">
-    <h1>ユーザー登録</h1>
     <form action="login.php" method="post">
-        <label>ユーザー名:
-            <input type="text" name="username" required>
-        </label><br><br>
+    <h1>ユーザー登録</h1>
 
-        <label>パスワード:
-            <input type="password" name="password" required>
-        </label><br><br>
+    <label for="username">ユーザー名:</label>
+    <input type="text" id="username" name="username" placeholder="例: yamada123"><br>
+
+    <label for="password">パスワード:</label>
+    <input type="password" id="password" name="password" placeholder="8文字以上の英数字">
 
         <button type="submit">登録</button>
-    </form>
-    </div>
     <p><a href="login.php" style="color: purple;">ログインはこちら</a></p>
+    </form>
 </body>
 </html>
