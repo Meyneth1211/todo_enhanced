@@ -1,5 +1,8 @@
 <?php require_once 'session.php'; ?>
 <?php if($_SERVER['REQUEST_METHOD'] === 'GET'): ?> <!-- 121行目まで -->
+<?php if (empty($_SESSION['userid'])) {
+    header('Location: login.php');
+}?>
 <h1>ToDoリスト</h1>
 <div class="user_info">
     <?php
@@ -104,8 +107,8 @@ $pdo = null;
                         echo '<td>高</td>';
                     }
                     echo '<td>';
-                    echo '<a href="task_edit.php?taskid=' . htmlspecialchars($row['id']) . '">編集</a>';
-                    echo '   <a href="task_delete.php?taskid=' . htmlspecialchars($row['id']) . '">削除</a>';
+                    echo '<a href="task_edit.php?taskid=' . htmlspecialchars($row['id']) . '">編集 </a>';
+                    echo '<a href="task_delete.php?taskid=' . htmlspecialchars($row['id']) . '"> 削除</a>';
                     /* echo '<form action="" method="get">';
                     echo    '<input type="submit" value="編集">';
                     echo '</form>';
