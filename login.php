@@ -21,7 +21,7 @@
                 <button type="submit" class="btn btn-border-gradient"><span class="btn-text-gradient--gold">ログイン</span></button>
             </div><br><br><br>
             <div class="btn-border-gradient-wrap btn-border-gradient-wrap--gold">
-                <a href="" class="btn btn-border-gradient"><span class="btn-text-gradient--gold">新規登録</span></a>
+                <button href="" class="btn btn-border-gradient"><span class="btn-text-gradient--gold">新規登録</span></button>
             </div>
 
         </div>

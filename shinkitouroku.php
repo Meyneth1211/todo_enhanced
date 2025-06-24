@@ -17,7 +17,7 @@
     <input type="password" id="password" name="password" placeholder="8文字以上の英数字">
 
         <button type="submit">登録</button>
-    <button><a href="login.php" style="color: purple;">ログインはこちら</a></button>
+    <p><a href="login.php" style="color: purple;">ログインはこちら</a></p>
     </form>
 </body>
 </html>
