@@ -1,7 +1,6 @@
 /db.php
 /index.php
-/login.php
-/logout.php
+# /logout.php
 /register.php
 /style.css
 /task_add.php
