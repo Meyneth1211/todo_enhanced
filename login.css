@@ -125,7 +125,7 @@ button.btn {
     0 0 15px rgba(250, 250, 214, 0.5);
 }
 
-a.btn-border-gradient {
+button.btn-border-gradient {
   font-size: 2rem;
   background: #000;
 }
