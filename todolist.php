@@ -1,5 +1,5 @@
 <?php require_once 'session.php'; ?>
-<?php if($_SERVER['REQUEST_METHOD'] === 'GET'): ?> <!-- 121行目まで -->
+<?php if($_SERVER['REQUEST_METHOD'] === 'GET'): // until line 121 ?>
 <?php if (empty($_SESSION['userid'])) {
     header('Location: login.php');
 }?>
