@@ -30,7 +30,6 @@
 
 </html>
 <?php endif; ?>
-
 <?php
 if ($_SERVER['REQUEST_METHOD']==='POST') {
     //ユーザ名とパスワードが入力されているか判定
