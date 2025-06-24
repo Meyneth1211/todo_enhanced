@@ -1,0 +1,106 @@
+.taskall{
+
+    font-size: 1.5rem;
+}
+.waku{
+    display: inline-block;
+    width: 60%;
+    padding: 30px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    background: #f4ffce;
+    margin: 0.5em 0;
+    line-height: 1.5;
+    border-radius: 50px;
+}
+
+body{
+    
+    text-align: center;
+}
+.naiyo:focus{
+    box-shadow: 0 0 5px 0 rgb(2, 86, 241);
+    border: 2px solid #FFF !important;
+    outline: 0;
+}
+
+input{
+    margin-bottom: 30px;
+    padding: 0.5em;
+}
+select{
+    margin-bottom: 30px;
+}
+
+.naiyo{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    margin: 0.5em 0;
+    line-height: 1.5;
+    height: 6em;
+}
+input[type="date"]{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    margin: 0.5em 0;
+}
+select{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    margin: 0.5em 0;
+}
+button{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    background: #a1b7f399;
+    margin: 2em 10rem 0.5em 0;
+    color: #000000;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    white-space: nowrap;
+}
+
+button:hover{
+    color: #ffffff; /* 文字色を白にする */
+    background-color: #0004f9; /* 背景色をグレー（#c9c9c9）にする */
+    text-decoration: none; /* リンクに出てくる下線を無効にする*/    
+}
+select:focus{
+    box-shadow: 0 0 5px 0 rgb(2, 86, 241);
+    border: 2px solid #FFF !important;
+    outline: 0;
+}
+input:focus{
+    box-shadow: 0 0 5px 0 rgb(2, 86, 241);
+    border: 2px solid #FFF !important;
+    outline: 0;
+}
+
+h1{
+    font-size: 3rem;
+    color: #000000;
+    margin: 0.5em 0;
+}
+a{
+    text-decoration: none; /* リンクに出てくる下線を無効にする*/
+    font-size: 25px;
+}
+a:hover{
+    color: #ff0000; /* 文字色を白にする */
+    text-decoration: none; /* リンクに出てくる下線を無効にする*/    
+}
