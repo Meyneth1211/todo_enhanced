@@ -20,12 +20,12 @@
             <div class="btn-border-gradient-wrap btn-border-gradient-wrap--gold">
                 <button type="submit" class="btn btn-border-gradient"><span class="btn-text-gradient--gold">ログイン</span></button>
             </div><br><br><br>
+    </form>
             <div class="btn-border-gradient-wrap btn-border-gradient-wrap--gold">
                 <a href="register.php"><button class="btn btn-border-gradient"><span class="btn-text-gradient--gold">新規登録</span></button></a>
             </div>
 
         </div>
-    </form>
 </body>
 
 </html>
