@@ -68,11 +68,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo '<h2>ユーザー名とパスワードを入力してください。</h2>';
         echo '<a href="register.php">新規登録画面へ</a>';
     }
-
-
-} else {
-    echo '不正な操作が行われました。';
-    echo '<a href="register.php">新規登録画面へ</a>';
 }
-
 ?>
