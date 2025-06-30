@@ -93,7 +93,6 @@ if (!$task) {
 </body>
 </html>
 <?php endif; ?>
-
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     session_start();
