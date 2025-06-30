@@ -12,7 +12,7 @@ if (!empty($_SESSION['userid']) && !empty($_GET['taskid'])) {
         exit();
     } else {
         echo '<h2>タスクの削除に失敗しました。</h2>';
-        echo '<a href="todolist.php">タスクリストに戻る</a>';
+        echo '<a href="todolist.php">ToDoリストに戻る</a>';
     }
 } else {
     header('Location: login.php');
