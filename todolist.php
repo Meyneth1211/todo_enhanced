@@ -1,7 +1,7 @@
 <?php require_once 'session.php'; ?>
 <?php if ($_SERVER['REQUEST_METHOD'] === 'GET'): // until line 121 
 ?>
-    <?php if (empty($_SESSION['userid'])) {
+<?php if (empty($_SESSION['userid'])) {
         header('Location: login.php');
     } ?>
     <div class="main_box">
