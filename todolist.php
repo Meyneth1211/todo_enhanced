@@ -4,6 +4,7 @@
 <?php if (empty($_SESSION['userid'])) {
         header('Location: login.php');
     } ?>
+    <link rel="stylesheet" href="todolist.css">
     <div class="main_box">
         <h1>ToDoリスト</h1>
         <div class="user_info">
