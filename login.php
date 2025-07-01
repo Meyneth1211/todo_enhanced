@@ -46,15 +46,17 @@ if ($_SERVER['REQUEST_METHOD']==='POST') {
             $_SESSION['userid'] = $result['id'];
             $_SESSION['username'] = $result['username'];
             header('Location: todolist.php');
-        echo '<div class="loginmiss">';
         } else {
+            echo '<div class="loginmiss">';
             echo '<h2>ユーザー名またはパスワードが間違っています。</h2>';
             echo '<a href="login.php">ログイン画面に戻る</a>';
+            echo '</div>';
         }
     } else {
+        echo '<div class="loginmiss">';
         echo '<h2>ユーザー名とパスワードを入力してください。</h2>';
         echo '<a href="login.php">ログイン画面に戻る</a>';
+        echo '<div class="loginmiss">';
     }
-        echo '</div>';
 }
 ?>
