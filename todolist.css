@@ -1,5 +1,14 @@
 .main_box{
     text-align: center;
+    background-image: -webkit-linear-gradient(
+    315deg,
+    #704308 0%,
+    #ffce08 37%,
+    #fefeb2 47%,
+    #fafad6 50%,
+    #fefeb2 53%,
+    #e1ce08 63%,
+    #704308 100%)
 }
 fieldset {
     border: 2px solid #48ab4b;
