@@ -10,11 +10,18 @@
     #e1ce08 63%,
     #704308 100%)
 }
-fieldset {
+/* fieldset {
     border: 2px solid #48ab4b;
     padding: 20px;
     border-radius: 10px;
     background-color: #f9f9f9;
     width: 500px;
     margin: 20px auto;
+} */
+fieldset {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 10px;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.2);
 }
