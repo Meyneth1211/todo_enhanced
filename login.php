@@ -55,8 +55,8 @@ if ($_SERVER['REQUEST_METHOD']==='POST') {
     } else {
         echo '<div class="loginmiss">';
         echo '<h2>ユーザー名とパスワードを入力してください。</h2>';
-        echo '<a href="login.php">ログイン画面に戻る</a>';
-        echo '<div class="loginmiss">';
+        echo '<a href="login.php">ログイン画面に戻る </a>';
+        echo '</div>';
     }
 }
 ?>
