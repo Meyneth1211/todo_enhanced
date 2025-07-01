@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD']==='POST') {
             $_SESSION['userid'] = $result['id'];
             $_SESSION['username'] = $result['username'];
             header('Location: todolist.php');
-        echo '<div class="logmiss" align="center">';
+        echo '<div class="logmiss">';
         } else {
             echo '<h2>ユーザー名またはパスワードが間違っています。</h2>';
             echo '<a href="login.php">ログイン画面に戻る</a>';
