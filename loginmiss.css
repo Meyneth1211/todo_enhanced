@@ -1,3 +1,12 @@
+body{
+    text-align: center;
+   background-color: rgb(26, 1, 1);
+   color:pink;
+   text-shadow: 0 0 10px #fff, 0 0 0px #fff, 0 0 0px #ff5722, 0 0 0px #ff5722, 0 0 10px #ff5722,0 0 10px #ff5722, 0 0 20px #ff5722; 
+    font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro",
+    "Hiragino Mincho ProN", "HGS明朝E", "ＭＳ Ｐ明朝", serif;
+}
+
 .loginmiss{
 background: linear-gradient(45deg, #757575 0%, #9E9E9E 45%, #E8E8E8 70%, #9E9E9E 85%, #757575 90% 100%);
 text-align: center;
