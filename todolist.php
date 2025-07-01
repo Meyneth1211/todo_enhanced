@@ -124,8 +124,8 @@
                 </tbody>
             </table>
         </div>
-    <?php endif; ?>
-    <?php
+<?php endif; ?>
+<?php
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // タスク追加処理
         if (!empty($_POST['task']) && !empty($_POST['due_date']) && !empty($_POST['priority'])) {
