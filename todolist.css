@@ -1,6 +1,9 @@
 .main_box{
     text-align: center;
-    background-image: -webkit-linear-gradient(
+
+}
+*{
+        background-image: -webkit-linear-gradient(
     315deg,
     #704308 0%,
     #ffce08 37%,
@@ -33,21 +36,21 @@ fieldset {
 .task_list {
     width: 100%;
     display: flex;
-    justify-content: center; /* テーブル自体を中央に配置 */
+    justify-content: center; 
     margin-top: 20px;
 }
 
 .task_list table {
     border-collapse: collapse;
     width: 80%;
-    text-align: center; /* 全セルの内容を中央揃え */
+    text-align: center; 
 }
 
 .task_list th,
 .task_list td {
     border: 1px solid #ccc;
     padding: 10px;
-    text-align: center; /* セル内の文字を中央揃え */
+    text-align: center; 
 }
 
 .task_list thead {
