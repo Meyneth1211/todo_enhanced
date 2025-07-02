@@ -30,7 +30,29 @@ fieldset {
 .task_list {
     text-align: center;
 }
-table{
-    text-align: center;
+.task_list {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* テーブル自体を中央に配置 */
+    margin-top: 20px;
 }
+
+.task_list table {
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center; /* 全セルの内容を中央揃え */
+}
+
+.task_list th,
+.task_list td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center; /* セル内の文字を中央揃え */
+}
+
+.task_list thead {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
 
